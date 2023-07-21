@@ -1,0 +1,10 @@
+@use "../../../styles/partials/mixins" as *;
+@use "../../../styles/partials/typography" as *;
+
+* {
+  box-sizing: border-box;
+}
+
+.card {
+  background-color: #eaf1ff;
+}
