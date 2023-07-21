@@ -2,7 +2,9 @@
 @use "variables" as *;
 
 @mixin mobile {
-  @media (max-width: $mobile-break);
+  @media (max-width: $mobile-break) {
+    @content;
+  }
 }
 
 @mixin tablet {
@@ -16,5 +18,3 @@
     @content;
   }
 }
-
-

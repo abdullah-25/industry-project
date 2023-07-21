@@ -1,5 +1,11 @@
-function ModalStory() {
-  return <h1>Hello</h1>;
-}
+import "./modalStory.scss";
+import sparkle from "../../assets/icons/bard_sparkle.gif";
 
-export default ModalStory;
+export default function ModalStory() {
+  return (
+    <div className="cta-top">
+      <img className="cta-icon" src={sparkle} alt="sparkle icon" />
+      <div className="cta-btn">Let AI help you</div>
+    </div>
+  );
+}
