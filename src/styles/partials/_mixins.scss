@@ -1,4 +1,9 @@
+@use "breakpoints" as *;
 @use "variables" as *;
+
+@mixin mobile {
+  @media (max-width: $mobile-break);
+}
 
 @mixin tablet {
   @media (min-width: $tablet-break) {
