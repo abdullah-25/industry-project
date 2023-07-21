@@ -1,0 +1,62 @@
+@use "../../../styles/partials/mixins" as *;
+@use "../../../styles/partials/typography" as *;
+
+* {
+  box-sizing: border-box;
+}
+
+.header {
+  &__search {
+    height: 6rem;
+    background-color: #36373b;
+    &-container {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      //padding-left: 1rem;
+      //padding-right: 1rem;
+      padding-top: 2.5rem;
+      &--search {
+        width: 85%;
+        height: 2rem;
+        padding: 1.2rem;
+        padding-left: 8rem;
+        border: none;
+
+        border: 1px solid;
+        border-radius: 1.2rem;
+        background: darkgrey url(../../assets/icons/Share.svg) no-repeat 95.5%
+          center;
+      }
+    }
+  }
+  &__seconddiv {
+    height: 3rem;
+    background: #d9d9d9;
+
+    &__container {
+      padding-top: 0.5rem;
+      padding-left: 0.2rem;
+      padding-right: 0.2rem;
+      display: flex;
+      justify-content: space-between;
+
+      &--close {
+        background: #fbfbfb;
+        border: none;
+        padding: 0.5rem;
+        border-radius: 0.5rem;
+        cursor: pointer;
+      }
+      &--send {
+        background: #5193fa;
+        color: white;
+        border: none;
+        border-radius: 0.5rem;
+        padding: 0.5rem;
+        cursor: pointer;
+      }
+    }
+  }
+}

@@ -1,0 +1,20 @@
+@use "../../../styles/partials/mixins" as *;
+@use "../../../styles/partials/typography" as *;
+
+* {
+  box-sizing: border-box;
+}
+
+.footer {
+  height: 4rem;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #36373b;
+  &__icons {
+    display: flex;
+    padding: 1rem;
+    justify-content: space-between;
+  }
+}
