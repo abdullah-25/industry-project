@@ -9,11 +9,11 @@ export default function Footer() {
   return (
     <div className="footer">
       <div className="footer__icons">
-        <img src={back}></img>
-        <img src={forward}></img>
-        <img src={newicon}></img>
-        <img src={tabs}></img>
-        <img src={more}></img>
+        <img src={back} alt="back button"></img>
+        <img src={forward} alt="forward button"></img>
+        <img src={newicon} alt="new icon"></img>
+        <img src={tabs} alt="open tabs"></img>
+        <img src={more} alt="more options"></img>
       </div>
     </div>
   );
