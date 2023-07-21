@@ -1,14 +1,13 @@
-import Header from "../../Components/Header/Header";
-import Footer from "../../Components/Footer/Footer";
-import ModalStory from "../../Components/ModalStory/ModalStory";
-import BackgroundContainer from "../../Components/BackgroundContainer/BackgroundContainer";
+import Header from "../../components/Header/Header";
+import Footer from "../../components/Footer/Footer";
+import DisplayCardCard from "../../components/DisplayCard/DisplayCard";
+import ModalStory from "../../components/ModalStory/ModalStory";
 
 function HomePage() {
   return (
     <>
       <Header />
       <ModalStory />
-      <BackgroundContainer />
       <Footer />
     </>
   );
