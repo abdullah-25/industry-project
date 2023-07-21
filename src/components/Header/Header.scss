@@ -26,8 +26,12 @@
 
         border: 1px solid;
         border-radius: 1.2rem;
-        background: darkgrey url(../../assets/icons/Share.svg) no-repeat 95.5%
-          center;
+
+        background-image: url(../../assets/icons/back.svg),
+          url(../../assets/icons/Share.svg);
+        background-size: 5%, 4%;
+        background-position: 33% center, 95.5% center;
+        background-repeat: no-repeat;
       }
     }
   }

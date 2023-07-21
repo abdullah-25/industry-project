@@ -1,0 +1,51 @@
+@use "../../../styles/partials/mixins" as *;
+@use "../../../styles/partials/typography" as *;
+
+* {
+  box-sizing: border-box;
+}
+
+.container {
+  background-color: #98bcf9;
+  height: 80vh;
+  padding-left: 1rem;
+  padding-right: 2rem;
+  &__heading {
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+  }
+  &__p {
+    padding-bottom: 20rem;
+  }
+  &__p2 {
+    padding-bottom: 15.526rem;
+  }
+
+  &__btn {
+    display: flex;
+    justify-content: space-around;
+    &__no {
+      color: #8b8e92;
+      font-size: 1.5rem;
+    }
+    &__start {
+      font-size: 1.5rem;
+      color: #4285f4;
+      &--imgback {
+        padding-right: 0.5rem;
+        filter: invert(62%) sepia(7%) saturate(187%) hue-rotate(175deg)
+          brightness(90%) contrast(86%);
+      }
+      &--imgforward {
+        padding-left: 0.5rem;
+        filter: invert(49%) sepia(90%) saturate(2778%) hue-rotate(162deg)
+          brightness(96%) contrast(101%);
+      }
+    }
+    &--outer {
+      display: flex;
+    }
+  }
+}
