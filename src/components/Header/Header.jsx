@@ -1,4 +1,6 @@
 import "./Header.scss";
+import menu from "../../assets/icons/menu.svg";
+import compose from "../../assets/icons/compose_button.svg";
 
 export default function Header() {
   return (
@@ -11,17 +13,12 @@ export default function Header() {
             className="header__search-container--search"
             value="mail.google.com"
           />
-          {/* <img
-            src={upload}
-            alt="upload-pic"
-            class="header__search-container--upload-pic"
-          /> */}
         </div>
       </div>
       <div className="header__seconddiv">
         <div className="header__seconddiv__container">
-          <button className="header__seconddiv__container--close">Close</button>
-          <button className="header__seconddiv__container--send">Send</button>
+          <img className="header__seconddiv__container--send" src={menu} />
+          <img className="header__seconddiv__container--close" src={compose} />
         </div>
       </div>
     </header>
